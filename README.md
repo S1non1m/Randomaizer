@@ -1,19 +1,21 @@
 # Randomizer API
 
-A simple randomizer API built with Node.js and Express.
+# API рандомайзера
 
-## Endpoints
+Простий API рандомізатора, створений за допомогою Node.js і Express.
 
-- `/number?min=MIN&max=MAX` - Returns a random number between `min` and `max` (default: 1-100).
-- `/element?array=a,b,c,d` - Returns a random element from the provided array.
-- `/string?length=LENGTH` - Returns a random string of specified length (default: 10).
+## Кінцеві точки
 
-## Deployment
+- `/number?min=MIN&max=MAX` - повертає випадкове число від `min` до `max` (за замовчуванням: 1-100).
+- `/element?array=a,b,c,d` - повертає випадковий елемент із наданого масиву.
+- `/string?length=LENGTH` - повертає випадковий рядок заданої довжини (за замовчуванням: 10).
 
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Start the server locally: `npm start`.
-4. Deploy to [Render.com](https://render.com).
+## Розгортання
+
+1. Клонуйте репозиторій.
+2. Запустіть `npm install`, щоб встановити залежності.
+3. Запустіть сервер локально: `npm start`.
+4. Розгорніть на [Render.com](https://render.com).
 
 ## Example Usage
 
