@@ -1,0 +1,15 @@
+{
+  "name": "randomizer-app",
+  "version": "1.0.0",
+  "description": "Simple randomizer API deployed on Render.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["randomizer", "node", "express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
